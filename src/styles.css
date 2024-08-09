@@ -1,0 +1,67 @@
+
+  /* Tabs-CLick */
+
+.tabs-container {
+    display: flex;
+    border: 1px solid #ccc;
+  }
+  
+  .tab {
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid transparent;
+  }
+  
+  .tab:hover {
+    border-color: #aaa;
+  }
+  
+  .panel {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+
+
+
+  /* TrafficLights */
+
+.traffic-light {
+    width: 100px;
+    height: 300px;
+    background-color: #333;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .light {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+  
+  .green { background-color: green; }
+  .yellow { background-color: yellow; }
+  .red { background-color: red; }
+
+
+  /* ColorBox */
+
+.color-box-container {
+    display: flex;
+  }
+  
+  .color-box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .red { background-color: red; }
+  .yellow { background-color: yellow; }
+  .aqua { background-color: aqua; }
+  .purple { background-color: purple; }
