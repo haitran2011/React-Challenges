@@ -1,9 +1,7 @@
 import { useState } from "react";
-import "./App.css";
 import Tabs from "./Compenents/Tabs";
 import TrafficLight from "./Compenents/TrafficLight";
 import ColorBox from "./Compenents/ColorBox";
-import "./styles.css";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -15,10 +13,10 @@ function App() {
         <Tabs />
       </div>
 
-      {/* <div className="app-container">
+      <div className="app-container">
         <h1>Traffic Light</h1>
         <TrafficLight />
-      </div> */}
+      </div>
 
       <div className="app-container">
         <h1>Color Box</h1>
